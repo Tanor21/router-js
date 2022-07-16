@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food / Restaurant with javascript (SPA)</title>
+    
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/styles.css">
+    
+    
+</head>
+<body>
+    <!-- Header Section -->
+    <section class="header">
+        <a href="/" class="logo"> <i class="fas fa-hotel"></i> Ar<span>t</span>-Cré<span>a</span> </a>
+
+        <nav class="navbar">
+            <a href="/" onclick="route()">Acceuil</a>
+            <a href="/products" onclick="route()">Products</a>
+            <a href="/shop" onclick="route()">Shop</a>
+            <a href="/contact" onclick="route()">Contact</a>
+        </nav>
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+    </section>
+    <!-- Header Section End -->
+
+
+    <section id="main-page"></section>
+
+
+
+    
+
+
+    <!-- custom js file link  -->
+    <script src="router.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
